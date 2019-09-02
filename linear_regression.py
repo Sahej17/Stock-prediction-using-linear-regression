@@ -9,6 +9,7 @@ from matplotlib import style
 
 style.use('ggplot')
 
+
 quandl.ApiConfig.api_key = 'xsP3WausbeH8ztnztRES'
 df = quandl.get('WIKI/GOOGL')
 
